@@ -1,6 +1,10 @@
-# MyApp
+# Time's up
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+Welcome to my try at making a Time's up game
+
+You can try accessing the project here : https://raphallier.github.io/Times-Up/
+
+Below are some basic commands since this project was generated directly from Angular CLI
 
 ## Development server
 
@@ -13,6 +17,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+In order to update the version displayed on the link above/
+- run `ng build --prod --output-path docs --base-href /Times-up/`
+- make a copy of docs/index.html and name it docs/404.hmtl
+- Commit changes
 
 ## Running unit tests
 
