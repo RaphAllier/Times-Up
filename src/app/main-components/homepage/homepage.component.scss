@@ -1,0 +1,22 @@
+
+
+#title-div {
+    color: #2C2F33;
+    font-size: 45px;
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 100px;
+}
+
+.text-div {
+    color: #2C2F33;;
+    font-size: 35px;
+    width: 800px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+
+    > div {
+        padding-top: 40px;
+    }
+}
